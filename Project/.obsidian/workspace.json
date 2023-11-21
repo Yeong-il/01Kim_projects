@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "2b80620b8d1b92e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "2486206c893284c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c69d16020f5c121e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numerical simulation/Numerical Simulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c85b2ab0307c2486",
+    "type": "split",
+    "children": [
+      {
+        "id": "03b2f7f30e2280b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f3a3c4569044f81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01878088d84a2c21",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3200d0ec2a4e4051",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "707807eae860a580",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a0e04797b115029",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd783a2a312de8f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Numerical simulation/Numerical Simulation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3c6311375f8b8ab4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Numerical simulation/Numerical Simulation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0da003400a5d161d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4287ad347bc7a368",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Numerical simulation/Numerical Simulation.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "c69d16020f5c121e",
+  "lastOpenFiles": []
+}
