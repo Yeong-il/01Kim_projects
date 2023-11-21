@@ -11,7 +11,7 @@ Convolution : y축 기준 좌우 반전이 된 함수 g를 $\tau$ 만큼 이동�
 
 $$
 \begin{flalign*}
-&(f*g)(t)=\int^{\infty}_{-\infty}f(\tau)g(t-\tau)d\tau(f*g)(i,j)\\
+&(f*g)(t)=\int^{\infty}_{-\infty}f(\tau)g(t-\tau)d\tau(f*g)(i,j)\\\\
 &=\sum^{h-1}_{x=0}\sum^{w-1}_{y=0}f(x,y)g(i-x,j-y)&&
 \end{flalign*}
 $$
