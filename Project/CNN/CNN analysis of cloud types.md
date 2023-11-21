@@ -10,7 +10,9 @@
 Convolution : y축 기준 좌우 반전이 된 함수 g를 $\tau$ 만큼 이동한 후, 또 다른 함수 f와 곱하여 구간에 대해 적분
 
 $$
-(f*g)(t)=\int^{\infty}_{-\infty}f(\tau)g(t-\tau)d\tau(f*g)(i,j)=\sum^{h-1}_{x=0}\sum^{w-1}_{y=0}f(x,y)g(i-x,j-y)
+\begin{/flalign*}
+&(f*g)(t)=\int^{\infty}_{-\infty}f(\tau)g(t-\tau)d\tau(f*g)(i,j)=\sum^{h-1}_{x=0}\sum^{w-1}_{y=0}f(x,y)g(i-x,j-y)&&
+\end{flalign*}
 $$
 
 ![500](https://i.imgur.com/ZQSpVbE.png)
