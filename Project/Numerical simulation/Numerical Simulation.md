@@ -105,6 +105,10 @@ $$
 $$
 \begin{align}
 &y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
+&K_{1} = \Delta t f(x_{n},t_{n})\\
+&K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
+&K_{3} = \Delta t f(x_{n}+\frac{4}{75}K_{1}+\frac{16}{75}K_{2},t_{n}+\frac{4}{15}\Delta t)\\
+&K_{4} = \Delta t f(x_{n}+\frac{5}{6}K_{1}-\frac{8}{3}K_{2}+\frac{5}{2}K_{3},t_{n}+\frac{2}{3}\Delta t)\\
 \end{align}
 $$
 
