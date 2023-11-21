@@ -94,8 +94,6 @@ $$
 &K_{3} = \Delta t f(x_{n}+\frac{3}{32}K_{1}+\frac{9}{32}K_{2}, t_{n}+\frac{3}{8}\Delta t)\\
 &K_{4} = \Delta t f(x_{n}+\frac{1932}{2197}K_{1}-\frac{7200}{2197}K_{2}+\frac{7296}{2197}K_{3},t_{n}+\frac{12}{13}\Delta t)\\
 &K_{5} = \Delta t f(x_{n}+\frac{439}{216}K_{1}-8K_{2}+\frac{3680}{513}K_{3}-\frac{845}{4104}K_{4},t_{n}+\Delta t)\\
-&K_{5} = \Delta t f(x_{n}+\frac{439}{216}K_{1}-8K_{2}+\frac{3680}{513}K_{3}-\frac{845}{4104}K_{4},t_{n}+\Delta t)\\
-&K_{5} = \Delta t f(x_{n}+\frac{439}{216}K_{1}-8K_{2}+\frac{3680}{513}K_{3}-\frac{845}{4104}K_{4},t_{n}+\Delta t)\\
 &K_{6} = \Delta t f(x_{n}-\frac{8}{27}K_{1}+2K_{2}-\frac{3544}{2565}K_{3}+\frac{1859}{4104}K_{4}-\frac{11}{40}K_{5},t_{n}+\frac{1}{2}\Delta t)\\\\
 &y_{n+1} = y_{n}+\frac{16}{135}K_{1}+\frac{6656}{12825}K_{3}+\frac{28561}{56430}K_{4}-\frac{9}{50}K_{5}+\frac{2}{55}K_{6}&&
 \end{flalign*}
@@ -115,6 +113,11 @@ $$
 &K_{6} = \Delta t f(x_{n}+\frac{361}{320}K_{1}-\frac{18}{5}K_{2}+\frac{407}{128}K_{3}-\frac{11}{80}K_{4}+\frac{55}{128}K_{5},t_{n}+\Delta t)\\
 &K_{7} = \Delta t f(x_{n}-\frac{11}{640}K_{1}+\frac{11}{256}K_{3}-\frac{11}{160}K_{4}+\frac{11}{256}K_{5},t_{n})\\
 &K_{8} = \Delta t f(x_{n}+\frac{93}{640}K_{1}-\frac{18}{5}K_{2}+\frac{803}{256}K_{3}-\frac{11}{160}K_{4}+\frac{99}{256}K_{5}+K_{7},t_{n}+\Delta t)\\
+\end{align}
+$$
+
+$$
+\begin{align}
 &y_{n+1} = y_{n}+\frac{7}{1408}K_{1}+\frac{1125}{2816}K_{3}+\frac{9}{32}K_{4}+\frac{125}{768}K_{5}+\frac{5}{66}K_{7}+\frac{5}{66}K_{8}&&
 \end{align}
 $$
