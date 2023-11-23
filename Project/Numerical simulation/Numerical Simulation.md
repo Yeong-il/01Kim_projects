@@ -176,8 +176,7 @@ The Schwarzschild metric describes the spacetime geometry around a spherically s
 
 ### Deviation
 
-$$
-\begin{flalign*}
+```math
 &x^{\mu}=(t,r,\theta,\phi)=(x^0,x^1,x^2,x^3)\\
 &ds^2 = -(1-\frac{2M}{r})dt^2+(1-\frac{2M}{r})^{-1} dr^2+r^2\Omega^2(d\Omega^2=d\theta^2+\sin^2{\theta}d{\phi}^2)\\
 &ds^2_{Minkowski}=-dt^2+dr^2+r^2d\Omega^2\\
@@ -190,10 +189,8 @@ $$
 &g_{00}=-e^{2\alpha(r)},g_{11}=e^{2\beta(r)},g_{22}=r^2,g_{33}=r^2\sin^2{\theta}\\
 &g^{00}=-\frac{1}{e^{2\alpha(r)}},g^{11}=\frac{1}{e^{2\beta(r)}},g^{22}=\frac{1}{r^2},g^{33}=\frac{1}{r^2\sin^2{\theta}}\\
 &g_{\mu\nu},g^{\mu\nu}=0(\mu\neq\nu),\Gamma^{\alpha}_{\mu\nu}=\Gamma^{\alpha}_{\nu\mu}\\
-&\Gamma^{\mu}_{\nu\sigma}=\frac{1}{2}g^{\mu\lambda}(g_{\lambda\nu,\sigma}+g_{\lambda\sigma,\nu}-g_{\nu\sigma,\lambda})(\Gamma^{\beta}_{\nu\sigma,\rho}=\frac{\partial}{\partial x^{\rho}}\Gamma^{\beta}_{\nu\sigma})
-&&
-\end{flalign*}
-$$
+&\Gamma^{\mu}_{\nu\sigma}=\frac{1}{2}g^{\mu\lambda}(g_{\lambda\nu,\sigma}+g_{\lambda\sigma,\nu}-g_{\nu\sigma,\lambda})(\Gamma^{\beta}_{\nu\sigma,\rho}=\frac{\partial}{\partial x^{\rho}}\Gamma^{\beta}_{\nu\sigma})&&
+```
 
 
 $$
