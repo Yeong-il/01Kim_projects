@@ -5,7 +5,7 @@ Due to recent developments in computer technology and the importance of computer
 
 The Runge-Kutta method is finding solutions to ordinary differential equations (ODEs). It's a widely used family of methods that provide an accurate and efficient way to approximate the solutions of ODEs, particularly for initial value problems. The most commonly used member of this family is the fourth-order Runge-Kutta method, often referred to a RK4.
 
-<p align="left"><img src="https://i.imgur.com/EeiI4XS.png" width="400">
+<p align="center"><img src="https://i.imgur.com/EeiI4XS.png" width="400">
   
 > Runge-Kutta 4th order method
 
@@ -424,7 +424,7 @@ $$
 \end{flalign*}
 $$
 
-<p align="left"><img src="https://i.imgur.com/nofGkrc.png" width="400"><img src="https://i.imgur.com/gFBIFyb.png" width="400">
+<p align="center"><img src="https://i.imgur.com/nofGkrc.png" width="400"><img src="https://i.imgur.com/gFBIFyb.png" width="400">
 
 > Mercury convergence test
 
@@ -471,17 +471,17 @@ A cubic spline function is a piecewise-defined polynomial function that is used 
 3. Make the smoothness of the two curves the same at each point. In other words, the differential values of the two curves at each point $x_{i}$ are the same.
 4. Let’s make the two curves meet ‘more’ smoothly. In other words, the second derivative values of the two curves at each point $x_{i}$ are equal.
 
-<p align="left"><img src="https://i.imgur.com/zpwR08a.png" width="400"><img src="https://i.imgur.com/XYrKWS7.png" width="400">
+<p align="center"><img src="https://i.imgur.com/zpwR08a.png" width="400"><img src="https://i.imgur.com/XYrKWS7.png" width="400">
 
-<p align="left"><img src="https://i.imgur.com/8MtbHTL.png" width="400"><img src="https://i.imgur.com/LdwiAEN.png" width="400">
+<p align="center"><img src="https://i.imgur.com/8MtbHTL.png" width="400"><img src="https://i.imgur.com/LdwiAEN.png" width="400">
 
 > interpolation, extrapolation
 
 ### Results and Analysis
 
-<p align="left"><img src="https://i.imgur.com/AWD3wPR.png" width="400"><img src="https://i.imgur.com/Ck7wiEd.png" width="400">
+<p align="center"><img src="https://i.imgur.com/AWD3wPR.png" width="400"><img src="https://i.imgur.com/Ck7wiEd.png" width="400">
 
-<p align="left"><img src="https://i.imgur.com/ce8AJjy.png" width="400"><img src="https://i.imgur.com/rBK563c.png" width="400">
+<p align="center"><img src="https://i.imgur.com/ce8AJjy.png" width="400"><img src="https://i.imgur.com/rBK563c.png" width="400">
 
 | Precession [arcsec/century] | Observed | Aanalytic approximated sol | Numerical geodesic sol [RK4] | Error [Analytic &amp; RK4] |
 |:----------------------------|:---------|:---------------------------|:-----------------------------|:---------------------------|
