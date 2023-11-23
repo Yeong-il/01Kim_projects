@@ -347,7 +347,7 @@ $$
 &=e^{2\alpha}[2r(\partial_r\alpha)+1]-1\\
 &e^{2\alpha}(2r(\partial_r\alpha)+1)=1\rightarrow \partial_{r}(re^{2\alpha})=1\\
 &e^{2\alpha}=1-\frac{R_{s}}{r}\leftarrow \partial_r(re^{2\alpha}=1\leftrightarrow=re^{2\alpha}=C+r\\
-&ds^2=-(1-\frac{2M}{r})dt^2+(1-\frac{2M}{r})^{-1}dr^2+r^2d\Omega^2 \sim Schwarzschild metric&&
+&ds^2=-(1-\frac{2M}{r})dt^2+(1-\frac{2M}{r})^{-1}dr^2+r^2d\Omega^2 \sim Schwarzschild Metric&&
 \end{flalign*}
 $$
 
