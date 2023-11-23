@@ -88,7 +88,7 @@ The Runge-Kutta-Fehlberg (RKF) method is a numerical integration technique for s
 
 $$
 \begin{flalign*}
-&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\\\
+&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{1}{4}K_{1}, t_{n}+\frac{1}{4}\Delta t)\\
 &K_{3} = \Delta t f(x_{n}+\frac{3}{32}K_{1}+\frac{9}{32}K_{2}, t_{n}+\frac{3}{8}\Delta t)\\
