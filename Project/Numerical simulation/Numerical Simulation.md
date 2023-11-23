@@ -1,4 +1,3 @@
-```
 Due to recent developments in computer technology and the importance of computer calculations, the use of numerical simulation methods in research gains more and more importance. Numerical simulation is a computational technique used to model and analyze complex real-world or theoretical systems and phenomena. It involves solving mathematical models through numerical methods, typically on a computer, to understand and predict the behavior of systems. Numerical simulation can address situations where observations are challenging or when it's difficult to precisely obtain solutions to theoretical equations. In the future, numerical simulations are likely to see increasing use in many areas of astrophysics. 
 
 ## Numerical Simulation steps 
@@ -441,4 +440,3 @@ A cubic spline function is a piecewise-defined polynomial function that is used 
 | Mars         |   686.94 |                  686.9143 |                     686.9143 |                   0.0037 % |  
 
 As a result of the numerical simulation, the precession [''/century] had an error of less than 1 % compared to the analytic solution, and the period had an error of approximately 0.1 % compared to the observed value. This is the result of improved accuracy through a combination of numerical simulation and interpolation, and when comparing observed values and periods, it can be concluded that general relativity has a significant impact on the solar system.
-```
