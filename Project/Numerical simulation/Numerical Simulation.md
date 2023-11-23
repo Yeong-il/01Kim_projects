@@ -1,4 +1,4 @@
-
+```
 Due to recent developments in computer technology and the importance of computer calculations, the use of numerical simulation methods in research gains more and more importance. Numerical simulation is a computational technique used to model and analyze complex real-world or theoretical systems and phenomena. It involves solving mathematical models through numerical methods, typically on a computer, to understand and predict the behavior of systems. Numerical simulation can address situations where observations are challenging or when it's difficult to precisely obtain solutions to theoretical equations. In the future, numerical simulations are likely to see increasing use in many areas of astrophysics. 
 
 ## Numerical Simulation steps 
@@ -103,7 +103,7 @@ $$
 - RKF 6th order method
 
 $$
-\begin{align}
+\begin{flalign*}
 &y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
@@ -114,7 +114,7 @@ $$
 &K_{7} = \Delta t f(x_{n}-\frac{11}{640}K_{1}+\frac{11}{256}K_{3}-\frac{11}{160}K_{4}+\frac{11}{256}K_{5},t_{n})\\
 &K_{8} = \Delta t f(x_{n}+\frac{93}{640}K_{1}-\frac{18}{5}K_{2}+\frac{803}{256}K_{3}-\frac{11}{160}K_{4}+\frac{99}{256}K_{5}+K_{7},t_{n}+\Delta t)\\
 &y_{n+1} = y_{n}+\frac{7}{1408}K_{1}+\frac{1125}{2816}K_{3}+\frac{9}{32}K_{4}+\frac{125}{768}K_{5}+\frac{5}{66}K_{7}+\frac{5}{66}K_{8}&&
-\end{align}
+\end{flalign*}
 $$
 
 
@@ -441,3 +441,4 @@ A cubic spline function is a piecewise-defined polynomial function that is used 
 | Mars         |   686.94 |                  686.9143 |                     686.9143 |                   0.0037 % |  
 
 As a result of the numerical simulation, the precession [''/century] had an error of less than 1 % compared to the analytic solution, and the period had an error of approximately 0.1 % compared to the observed value. This is the result of improved accuracy through a combination of numerical simulation and interpolation, and when comparing observed values and periods, it can be concluded that general relativity has a significant impact on the solar system.
+```
