@@ -343,7 +343,7 @@ $$
 $$
 \begin{flalign*}
 &0=e^{2(\beta-\alpha)}R_{00}+R_{11}=\frac{2}{r}(\partial_r\alpha+\partial_r\beta)\rightarrow\alpha=-\beta+c(c:constant)\\
-&time coordinate t\rightarrow e^{-c}t-\alpha=\beta\\
+&Time Coordinate \space t\rightarrow e^{-c}t-\alpha=\beta\\
 &R_{22}=0\\
 &=e^{2\alpha}[2r(\partial_r\alpha)+1]-1\\
 &e^{2\alpha}(2r(\partial_r\alpha)+1)=1\rightarrow \partial_{r}(re^{2\alpha})=1\\
