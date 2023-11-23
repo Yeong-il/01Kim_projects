@@ -1,4 +1,3 @@
-
 Due to recent developments in computer technology and the importance of computer calculations, the use of numerical simulation methods in research gains more and more importance. Numerical simulation is a computational technique used to model and analyze complex real-world or theoretical systems and phenomena. It involves solving mathematical models through numerical methods, typically on a computer, to understand and predict the behavior of systems. Numerical simulation can address situations where observations are challenging or when it's difficult to precisely obtain solutions to theoretical equations. In the future, numerical simulations are likely to see increasing use in many areas of astrophysics. 
 
 ## Numerical Simulation steps 
@@ -88,7 +87,7 @@ The Runge-Kutta-Fehlberg (RKF) method is a numerical integration technique for s
 
 $$
 \begin{flalign*}
-&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\\\
+&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{1}{4}K_{1}, t_{n}+\frac{1}{4}\Delta t)\\
 &K_{3} = \Delta t f(x_{n}+\frac{3}{32}K_{1}+\frac{9}{32}K_{2}, t_{n}+\frac{3}{8}\Delta t)\\
@@ -102,18 +101,20 @@ $$
 
 - RKF 6th order method
 
-```math
-y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
-K_{1} = \Delta t f(x_{n},t_{n})\\
-K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
-K_{3} = \Delta t f(x_{n}+\frac{4}{75}K_{1}+\frac{16}{75}K_{2},t_{n}+\frac{4}{15}\Delta t)\\
-K_{4} = \Delta t f(x_{n}+\frac{5}{6}K_{1}-\frac{8}{3}K_{2}+\frac{5}{2}K_{3},t_{n}+\frac{2}{3}\Delta t)\\
-K_{5} = \Delta t f(x_{n}-\frac{8}{5}K_{1}+\frac{144}{25}K_{2}-4K_{3}+\frac{16}{25}K_{4},t_{n}+\frac{4}{5}\Delta t)\\
-K_{6} = \Delta t f(x_{n}+\frac{361}{320}K_{1}-\frac{18}{5}K_{2}+\frac{407}{128}K_{3}-\frac{11}{80}K_{4}+\frac{55}{128}K_{5},t_{n}+\Delta t)\\
-K_{7} = \Delta t f(x_{n}-\frac{11}{640}K_{1}+\frac{11}{256}K_{3}-\frac{11}{160}K_{4}+\frac{11}{256}K_{5},t_{n})\\
-K_{8} = \Delta t f(x_{n}+\frac{93}{640}K_{1}-\frac{18}{5}K_{2}+\frac{803}{256}K_{3}-\frac{11}{160}K_{4}+\frac{99}{256}K_{5}+K_{7},t_{n}+\Delta t)\\
-y_{n+1} = y_{n}+\frac{7}{1408}K_{1}+\frac{1125}{2816}K_{3}+\frac{9}{32}K_{4}+\frac{125}{768}K_{5}+\frac{5}{66}K_{7}+\frac{5}{66}K_{8}
-```
+$$
+\begin{flalign*}
+&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
+&K_{1} = \Delta t f(x_{n},t_{n})\\
+&K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
+&K_{3} = \Delta t f(x_{n}+\frac{4}{75}K_{1}+\frac{16}{75}K_{2},t_{n}+\frac{4}{15}\Delta t)\\
+&K_{4} = \Delta t f(x_{n}+\frac{5}{6}K_{1}-\frac{8}{3}K_{2}+\frac{5}{2}K_{3},t_{n}+\frac{2}{3}\Delta t)\\
+&K_{5} = \Delta t f(x_{n}-\frac{8}{5}K_{1}+\frac{144}{25}K_{2}-4K_{3}+\frac{16}{25}K_{4},t_{n}+\frac{4}{5}\Delta t)\\
+&K_{6} = \Delta t f(x_{n}+\frac{361}{320}K_{1}-\frac{18}{5}K_{2}+\frac{407}{128}K_{3}-\frac{11}{80}K_{4}+\frac{55}{128}K_{5},t_{n}+\Delta t)\\
+&K_{7} = \Delta t f(x_{n}-\frac{11}{640}K_{1}+\frac{11}{256}K_{3}-\frac{11}{160}K_{4}+\frac{11}{256}K_{5},t_{n})\\
+&K_{8} = \Delta t f(x_{n}+\frac{93}{640}K_{1}-\frac{18}{5}K_{2}+\frac{803}{256}K_{3}-\frac{11}{160}K_{4}+\frac{99}{256}K_{5}+K_{7},t_{n}+\Delta t)\\
+&y_{n+1} = y_{n}+\frac{7}{1408}K_{1}+\frac{1125}{2816}K_{3}+\frac{9}{32}K_{4}+\frac{125}{768}K_{5}+\frac{5}{66}K_{7}+\frac{5}{66}K_{8}&&
+\end{flalign*}
+$$
 
 
 - RKF 7th order method
