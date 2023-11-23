@@ -134,7 +134,8 @@ $$
 
 $$
 \begin{flalign*}
-&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\\\
+&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
+&\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{2}{33}K_{1},t_{n}+\frac{2}{33}\Delta t)\\
 &K_{3} = \Delta t f(x_{n}+\frac{4}{33}K_{2},t_{n}+\frac{4}{33}\Delta t)\\
@@ -147,7 +148,12 @@ $$
 \begin{flalign*}
 &K_{6} = \Delta t f(x_{n}-\frac{2383}{486}K_{1}+\frac{1067}{54}K_{3}-\frac{26312}{1701}K_{4}+\frac{2176}{1701}K_{5},t_{n}+\frac{2}{3}\Delta t)\\
 &K_{7} = \Delta t f(x_{n}+\frac{10077}{4802}K_{1}-\frac{5643}{686}K_{3}+\frac{116259}{16807}K_{4}-\frac{6240}{16807}K_{5}+\frac{1053}{2401}K_{6},t_{n}+\frac{6}{7}\Delta t)\\
-&K_{8} = \Delta t f(x_{n}-\frac{733}{176}K_{1}+\frac{141}{8}K_{3}-\frac{335763}{23296}K_{4}+\frac{216}{77}K_{5}-\frac{4617}{2816}K_{6}+\frac{7203}{9152}K_{7},t_{n}+\Delta t)\\
+&K_{8} = \Delta t f(x_{n}-\frac{733}{176}K_{1}+\frac{141}{8}K_{3}-\frac{335763}{23296}K_{4}+\frac{216}{77}K_{5}-\frac{4617}{2816}K_{6}+\frac{7203}{9152}K_{7},t_{n}+\Delta t)&&
+\end{flalign*}
+$$
+
+$$
+\begin{flalign*}
 &K_{9} = \Delta t f(x_{n}+\frac{15}{352}K_{1}-\frac{5445}{46592}K_{4}+\frac{18}{77}K_{5}-\frac{1215}{5632}K_{6}+\frac{1029}{18304}K_{7},t_{n})\\
 &K_{10} = \Delta t f(x_{n}-\frac{1833}{352}K_{1}+\frac{141}{8}K_{3}-\frac{51237}{3584}K_{4}+\frac{18}{7}K_{5}-\frac{729}{512}K_{6}+\frac{1029}{1408}K_{7}+K_{9},t_{n}+\Delta t)\\
 &y_{n+1} = y_{n}+\frac{11}{864}K_{1}+\frac{1771561}{6289920}K_{4}+\frac{32}{105}K_{5}+\frac{243}{2560}K_{6}+\frac{16807}{74880}K_{7}+\frac{11}{270}K_{9}+\frac{11}{270}K_{10}&&
@@ -159,18 +165,29 @@ $$
 
 $$
 \begin{flalign*}
-&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\\\
+&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
+&\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{2}{27}K_{1},t_{n}+\frac{2}{27}\Delta t)\\
 &K_{3} = \Delta t f(x_{n}+\frac{1}{36}K_{1}+\frac{1}{12}K_{2},t_{n}+\frac{1}{9}\Delta t)\\
 &K_{4} = \Delta t f(x_{n}+\frac{1}{24}K_{1}+\frac{1}{8}K_{3},t_{n}+\frac{1}{6}\Delta t)\\
-&K_{5} = \Delta t f(x_{n}+\frac{20}{48}K_{1}-\frac{75}{48}K_{3}+\frac{75}{48}K_{4},t_{n}+\frac{5}{12}\Delta t)\\
+&K_{5} = \Delta t f(x_{n}+\frac{20}{48}K_{1}-\frac{75}{48}K_{3}+\frac{75}{48}K_{4},t_{n}+\frac{5}{12}\Delta t)&&
+\end{flalign*}
+$$
+
+$$
+\begin{flalign*}
 &K_{6} = \Delta t f(x_{n}+\frac{1}{20}K_{1}+\frac{1}{4}K_{4}+\frac{1}{5}K_{5},t_{n}+\frac{1}{2}\Delta t)\\
 &K_{7} = \Delta t f(x_{n}-\frac{25}{108}K_{1}+\frac{125}{108}K_{4}-\frac{260}{108}K_{5}+\frac{250}{108}K_{6},t_{n}\frac{5}{6}\Delta t)\\
 &K_{8} = \Delta t f(x_{n}+\frac{31}{300}K_{1}+\frac{61}{225}K_{5}-\frac{2}{9}K_{6}+\frac{13}{900}K_{7},t_{n}+\frac{1}{6}\Delta t)\\
 &K_{9} = \Delta t f(x_{n}+2K_{1}-\frac{53}{6}K_{4}+\frac{704}{45}K_{5}-\frac{107}{9}K_{6}+\frac{67}{90}K_{7}+3K_{8},t_{n}+\frac{2}{3}\Delta t)\\
 &K_{10} = \Delta t f(x_{n}-\frac{91}{108}K_{1}+\frac{23}{108}K_{4}-\frac{976}{135}K_{5}+\frac{311}{54}K_{6}-\frac{19}{60}K_{7}+\frac{17}{6}K_{8}-\frac{1}{12}K_{9},t_{n}+\frac{1}{3}\Delta t)\\
-&K_{11} = \Delta t f(x_{n}+\frac{2383}{4100}K_{1}-\frac{341}{164}K_{4}+\frac{4496}{1025}K_{5}-\frac{301}{82}K_{6}+\frac{2133}{4100}K_{7}+\frac{45}{82}K_{8}+\frac{45}{164}K_{9}+\frac{18}{41}K_{10},t_{n}+\Delta t)\\
+&K_{11} = \Delta t f(x_{n}+\frac{2383}{4100}K_{1}-\frac{341}{164}K_{4}+\frac{4496}{1025}K_{5}-\frac{301}{82}K_{6}+\frac{2133}{4100}K_{7}+\frac{45}{82}K_{8}+\frac{45}{164}K_{9}+\frac{18}{41}K_{10},t_{n}+\Delta t)&&
+\end{flalign*}
+$$
+
+$$
+\begin{flalign*}
 &K_{12} = \Delta t f(x_{n}+\frac{3}{205}K_{1}-\frac{6}{41}K_{6}-\frac{3}{205}K_{7}-\frac{3}{41}K_{8}+\frac{3}{41}K_{9}+\frac{6}{41}K_{10},t_{n})\\
 &K_{13} = \Delta t f(x_{n}-\frac{1777}{4100}K_{1}-\frac{341}{164}K_{4}+\frac{4496}{1025}K_{5}-\frac{289}{82}K_{6}+\frac{2193}{4100}K_{7}+\frac{51}{82}K_{8}+\frac{33}{164}K_{9}+\frac{12}{41}K_{10}+K_{12},t_{n}+\Delta t)\\
 &y_{n+1} = y_{n}+\frac{34}{105}K_{6}+\frac{9}{35}K_{7}+\frac{9}{35}K_{8}+\frac{9}{280}K_{9}+\frac{9}{280}K_{10}+\frac{41}{840}K_{12}+\frac{41}{840}K_{13}&&
