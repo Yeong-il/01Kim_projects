@@ -22,6 +22,7 @@ $$
 Field 은하 (single halo)의 median 값과 비교하여 log sSFR값이 -9.9257 이상이고, Quenching Fraction이 98.79%보다 낮은 Halos를 Blue cluster로 분류하였고, 총 63개의 Blue cluster를 선별하였다. sSFR이 -10.25 (log scale) 이하이고, Quenching Fraction이 99% 이상인 Halos를 Red cluster로 분류하였다. 분류 결과 Red cluster가 질량이 비교적 큰 경향성을 보인다.
 
 <p align="center"><img src="https://i.imgur.com/jesFYO5.png" width="800">
+  
 - Temperature Profile (Cell에서의 mean Temperature 계산)
 
 $$
@@ -45,8 +46,11 @@ R^2=1-\frac{SSR}{SST} (SST=\sum^{n}_{i}(y_i-\widetilde{y})^2, SSR=\sum^{n}_{i}(y
 <p align="center"><img src="https://i.imgur.com/ENsy4MA.png" width="800">
 
 - Result & Discussion
+
 <p align="center"><img src="https://i.imgur.com/KAPXx39.png" width="800">
+  
 은하단 중심으로부터의 거리에 따라 Red/Blue cluster의 Quenching Fraction과 sSFR 값을 비교해보면 Quenching Fraction은 큰 차이가 없기는 하지만 cluster 안쪽에서 Blue cluster가 약간 낮게 나타났고, sSFR은 더 크게 나타났다. 선행 연구와 동일하게 Blue cluster 환경에서 Star Formation이 더 활발히 일어날 것으로 판단할 수 있다. ICM Temperature profile의 Fitting을 통해 Halo 내 중심온도를 계산한 값을 질량에 따라 나타냈다. 두 종류 cluster 모두 질량이 증가함에 따라서 중심온도가 증가하는 양상을 보였는데, Blue cluster의 중심 온도가 Red cluster보다 계층적으로 낮게 나타나는 것을 확인할 수 있다. 중심 온도 뿐만 아니라 모든 반경에 걸쳐서 Blue cluster의 gas 온도가 낮다는 점 또한 확인하였다.
+
 <p align="center"><img src="https://i.imgur.com/L4tLWhs.png" width="800">
 
 Fitting parameter 분포 : parameter A가 Blue cluster가 Red cluster보다 작은 경향성을 보이는 데, 이는 Blue cluster의 중심온도가 Red cluster보다 낮은 것과 연관되어 해석된다. 다른 parameter 같은 경우는 Blue cluster과 Red cluster의 분포 차이가 크지 않았다.
