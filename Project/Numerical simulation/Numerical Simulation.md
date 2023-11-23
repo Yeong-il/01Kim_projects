@@ -236,13 +236,13 @@ $$
 &<Static \& Spherically-Symmetric>\\
 &\\
 &g_{00}=-e^{2\alpha(r)},g_{11}=e^{2\beta(r)},g_{22}=r^2,g_{33}=r^2\sin^2{\theta}\\
-&g^{00}=-\frac{1}{e^{2\alpha(r)}},g^{11}=\frac{1}{e^{2\beta(r)}},g^{22}=\frac{1}{r^2},g^{33}=\frac{1}{r^2\sin^2{\theta}}\\
-&g_{\mu\nu},g^{\mu\nu}=0(\mu\neq\nu),\Gamma^{\alpha}_{\mu\nu}=\Gamma^{\alpha}_{\nu\mu}\\
+&g^{00}=-\frac{1}{e^{2\alpha(r)}},g^{11}=\frac{1}{e^{2\beta(r)}},g^{22}=\frac{1}{r^2},g^{33}=\frac{1}{r^2\sin^2{\theta}}&&
 \end{flalign*}
 $$
 
 $$
 \begin{flalign*}
+&g_{\mu\nu},g^{\mu\nu}=0(\mu\neq\nu),\Gamma^{\alpha}_{\mu\nu}=\Gamma^{\alpha}_{\nu\mu}\\
 &\Gamma^{\mu}_{\nu\sigma}=\frac{1}{2}g^{\mu\lambda}(g_{\lambda\nu,\sigma}+g_{\lambda\sigma,\nu}-g_{\nu\sigma,\lambda})(\Gamma^{\beta}_{\nu\sigma,\rho}=\frac{\partial}{\partial x^{\rho}}\Gamma^{\beta}_{\nu\sigma})&&
 \end{flalign*}
 $$
