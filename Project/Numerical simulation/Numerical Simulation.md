@@ -89,6 +89,7 @@ The Runge-Kutta-Fehlberg (RKF) method is a numerical integration technique for s
 $$
 \begin{flalign*}
 &y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
+&\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{1}{4}K_{1}, t_{n}+\frac{1}{4}\Delta t)\\
 &K_{3} = \Delta t f(x_{n}+\frac{3}{32}K_{1}+\frac{9}{32}K_{2}, t_{n}+\frac{3}{8}\Delta t)\\
@@ -105,10 +106,16 @@ $$
 $$
 \begin{flalign*}
 &y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
+&\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
 &K_{3} = \Delta t f(x_{n}+\frac{4}{75}K_{1}+\frac{16}{75}K_{2},t_{n}+\frac{4}{15}\Delta t)\\
-&K_{4} = \Delta t f(x_{n}+\frac{5}{6}K_{1}-\frac{8}{3}K_{2}+\frac{5}{2}K_{3},t_{n}+\frac{2}{3}\Delta t)\\
+&K_{4} = \Delta t f(x_{n}+\frac{5}{6}K_{1}-\frac{8}{3}K_{2}+\frac{5}{2}K_{3},t_{n}+\frac{2}{3}\Delta t)&&
+\end{flalign*}
+$$
+
+$$
+\begin{flalign*}
 &K_{5} = \Delta t f(x_{n}-\frac{8}{5}K_{1}+\frac{144}{25}K_{2}-4K_{3}+\frac{16}{25}K_{4},t_{n}+\frac{4}{5}\Delta t)\\
 &K_{6} = \Delta t f(x_{n}+\frac{361}{320}K_{1}-\frac{18}{5}K_{2}+\frac{407}{128}K_{3}-\frac{11}{80}K_{4}+\frac{55}{128}K_{5},t_{n}+\Delta t)\\
 &K_{7} = \Delta t f(x_{n}-\frac{11}{640}K_{1}+\frac{11}{256}K_{3}-\frac{11}{160}K_{4}+\frac{11}{256}K_{5},t_{n})\\
