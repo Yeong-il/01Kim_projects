@@ -102,8 +102,7 @@ $$
 
 - RKF 6th order method
 
-$$
-\begin{flalign*}
+```math
 &y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
@@ -114,8 +113,7 @@ $$
 &K_{7} = \Delta t f(x_{n}-\frac{11}{640}K_{1}+\frac{11}{256}K_{3}-\frac{11}{160}K_{4}+\frac{11}{256}K_{5},t_{n})\\
 &K_{8} = \Delta t f(x_{n}+\frac{93}{640}K_{1}-\frac{18}{5}K_{2}+\frac{803}{256}K_{3}-\frac{11}{160}K_{4}+\frac{99}{256}K_{5}+K_{7},t_{n}+\Delta t)\\
 &y_{n+1} = y_{n}+\frac{7}{1408}K_{1}+\frac{1125}{2816}K_{3}+\frac{9}{32}K_{4}+\frac{125}{768}K_{5}+\frac{5}{66}K_{7}+\frac{5}{66}K_{8}&&
-\end{flalign*}
-$$
+```
 
 
 - RKF 7th order method
