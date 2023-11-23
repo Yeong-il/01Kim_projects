@@ -164,10 +164,10 @@ $$
 
 $$
 \begin{flalign*}
-&<Schwarzschild\;geodesic>\\\\
+&<SchwarzschildGeodesic>\\\\
 &ds^2=-(1-\frac{2M}{r})dt^2+(1-\frac{2M}{r})^{-1}dr^2+r^2d\theta^2+r\sin^2{\theta}d\phi^2\\\\
-&<conserved\;quantity>\\\\
-&(1-\frac{2M}{r})\frac{dt}{d\tau}=\widetilde{E},\;\;\;r^2\frac{d\phi}{d\tau}=\widetilde{L}\\\\
+&<ConservedQuantity>\\\\
+&(1-\frac{2M}{r})\frac{dt}{d\tau}=\widetilde{E},r^2\frac{d\phi}{d\tau}=\widetilde{L}\\\\
 &(\frac{dr}{d\tau})^2=\widetilde{E}^2-(1-\frac{2M}{r})(1+\frac{\widetilde{L}^2}{r^2})\\\\
 &\frac{d^2r}{d\tau^2}=-\frac{M}{r^2}+\frac{\widetilde{L}^2}{r^3}-\frac{3M\widetilde{L}^2}{r^4}\\\\
 &(\frac{dr}{d\phi})^2=\frac{(dr/d\tau)^2}{(d\phi/d\tau)^2}=\frac{\widetilde{E}^2-(1-\frac{2M}{r})(1+\frac{\widetilde{L}^2}{r^2})}{\widetilde{L}^2/r^4} &&
@@ -186,7 +186,7 @@ $$
 &ds^2=-e^{2\alpha(r)}dt^2+e^{2\beta(r)}dr^2+e^{2\gamma(r)}r^2d\Omega^2\\\\
 &\overline{r}=e^{\gamma(r)}r\\
 &d\overline{r}=e^{\gamma}rdr+e^{\gamma}rd\gamma=(1+r\frac{d\gamma}{dr})e^{\gamma}dr\\
-&ds^2=-e^{2\alpha(r)}dt^2+(1+r\frac{d\gamma}{dr})^{-2}\;e^{2\beta(\gamma)-2\gamma(r)}d\overline{r}^2+\overline{r}^2d\Omega^2\\
+&ds^2=-e^{2\alpha(r)}dt^2+(1+r\frac{d\gamma}{dr})^{-2}e^{2\beta(\gamma)-2\gamma(r)}d\overline{r}^2+\overline{r}^2d\Omega^2\\
 &ds^2=-e^{2\alpha(r)}dt^2+e^{2\beta(r)}dr^2+r^2d\Omega^2(\overline{r}\rightarrow r)\\\\
 &<Static \& Spherically-Symmetric>\\
 &g_{00}=-e^{2\alpha(r)},g_{11}=e^{2\beta(r)},g_{22}=r^2,g_{33}=r^2\sin^2{\theta}\\
@@ -248,10 +248,10 @@ $$
 
 $$
 \begin{flalign*}
-&\Gamma^{0}_{01}=\Gamma^{t}_{tr}=\partial_{r}\alpha,\;\; \Gamma^{2}_{33}=\Gamma^{\theta}_{\phi\phi}=-\sin{\theta}\cos{\theta}\\
-&\Gamma^{1}_{00}=\Gamma^{r}_{tt}=e^{2(\alpha-\beta)}(\partial_{r}\alpha),\;\; \Gamma^{2}_{12}=\Gamma^{\theta}_{r\theta}=\frac{1}{r}\\
-&\Gamma^{1}_{11}=\Gamma^{r}_{rr}=\partial_{r}\beta,\;\;\Gamma^{3}_{13}=\Gamma^{\phi}_{r\phi}=\frac{1}{r}\\
-&\Gamma^{1}_{22}=\Gamma^{r}_{\theta\theta}=-re^{-2\beta},\;\;\Gamma^{3}_{23}=\Gamma^{\phi}_{\theta\phi}=\frac{\cos{\theta}}{\sin{\theta}}\\
+&\Gamma^{0}_{01}=\Gamma^{t}_{tr}=\partial_{r}\alpha, \Gamma^{2}_{33}=\Gamma^{\theta}_{\phi\phi}=-\sin{\theta}\cos{\theta}\\
+&\Gamma^{1}_{00}=\Gamma^{r}_{tt}=e^{2(\alpha-\beta)}(\partial_{r}\alpha),\Gamma^{2}_{12}=\Gamma^{\theta}_{r\theta}=\frac{1}{r}\\
+&\Gamma^{1}_{11}=\Gamma^{r}_{rr}=\partial_{r}\beta,\Gamma^{3}_{13}=\Gamma^{\phi}_{r\phi}=\frac{1}{r}\\
+&\Gamma^{1}_{22}=\Gamma^{r}_{\theta\theta}=-re^{-2\beta},\Gamma^{3}_{23}=\Gamma^{\phi}_{\theta\phi}=\frac{\cos{\theta}}{\sin{\theta}}\\
 &\Gamma^{1}_{33}=\Gamma^{r}_{\phi\phi}=-re^{-2\beta}\sin^2{\theta}\\
 &&
 \end{flalign*}
@@ -262,7 +262,7 @@ $$
 
 $$
 \begin{flalign*}
-&R_{\mu\nu}=r^{\beta}_{\mu\nu\beta}=\Gamma^{\beta}_{\mu\beta,\nu}-\Gamma^{\beta}_{\mu\nu,\beta}+\Gamma^{\alpha}_{\mu\beta}\Gamma^{\beta}_{\alpha\mu}-\Gamma^{\alpha}_{\mu\nu}\Gamma^{\beta}_{\alpha\beta}\;\;\;\;\;R_{\mu\nu}=0\;(\mu\neq\nu)\\
+&R_{\mu\nu}=r^{\beta}_{\mu\nu\beta}=\Gamma^{\beta}_{\mu\beta,\nu}-\Gamma^{\beta}_{\mu\nu,\beta}+\Gamma^{\alpha}_{\mu\beta}\Gamma^{\beta}_{\alpha\mu}-\Gamma^{\alpha}_{\mu\nu}\Gamma^{\beta}_{\alpha\beta}R_{\mu\nu}=0(\mu\neq\nu)\\
 &R_{00}=e^{2(\alpha-\beta)}[\partial^{2}_{r}\alpha+(\partial_{r}\alpha)^2-(\partial_r\alpha)(\partial_{r}\beta)+\frac{2}{r}(\partial_r\alpha)]\\
 &R_{11}=-\partial^{2}_{r}\alpha-(\partial_{r}\alpha)^{2}+(\partial_{r}^{\beta})(\partial_{r}\alpha)+\frac{2}{r}(\partial_{r}\beta)\\
 &R_{22}=e^{-2\beta}[r(\partial\beta)-r(\partial_r\alpha)-1]+1\\
@@ -304,7 +304,7 @@ $$
 $$
 \begin{flalign*}
 &ds^2=-(1-\frac{2M}{r}dt^2+(1-\frac{2M}{r})^{-1}dr^2+r^2d\theta^2+r\sin^2{\theta}d\phi^2\\\\
-&<conserved quantity>\\
+&<ConservedQuantity>\\
 &(1-\frac{2M}{r})\frac{dt}{d\tau}=\widetilde{E},r^2\frac{d\phi}{d\tau}=\widetilde{L}\\
 &\frac{d^2x^{\mu}}{d\lambda^2}+\Gamma^{\mu}_{\alpha\beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^\beta}{d\lambda}=0\\
 &\frac{d^2t}{d\tau^2}=\frac{-2M}{r(r-2M)}(\frac{dr}{d\tau})(\frac{dt}{d\tau})\\
