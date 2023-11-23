@@ -222,12 +222,19 @@ $$
 &x^{\mu}=(t,r,\theta,\phi)=(x^0,x^1,x^2,x^3)\\
 &ds^2 = -(1-\frac{2M}{r})dt^2+(1-\frac{2M}{r})^{-1} dr^2+r^2\Omega^2(d\Omega^2=d\theta^2+\sin^2{\theta}d{\phi}^2)\\
 &ds^2_{Minkowski}=-dt^2+dr^2+r^2d\Omega^2\\
-&ds^2=-e^{2\alpha(r)}dt^2+e^{2\beta(r)}dr^2+e^{2\gamma(r)}r^2d\Omega^2\\\\
+&ds^2=-e^{2\alpha(r)}dt^2+e^{2\beta(r)}dr^2+e^{2\gamma(r)}r^2d\Omega^2\\
+$\\
 &\overline{r}=e^{\gamma(r)}r\\
 &d\overline{r}=e^{\gamma}rdr+e^{\gamma}rd\gamma=(1+r\frac{d\gamma}{dr})e^{\gamma}dr\\
 &ds^2=-e^{2\alpha(r)}dt^2+(1+r\frac{d\gamma}{dr})^{-2}e^{2\beta(\gamma)-2\gamma(r)}d\overline{r}^2+\overline{r}^2d\Omega^2\\
-&ds^2=-e^{2\alpha(r)}dt^2+e^{2\beta(r)}dr^2+r^2d\Omega^2(\overline{r}\rightarrow r)\\\\
+&ds^2=-e^{2\alpha(r)}dt^2+e^{2\beta(r)}dr^2+r^2d\Omega^2(\overline{r}\rightarrow r)&&
+\end{flalign*}
+$$
+
+$$
+\begin{flalign*}
 &<Static \& Spherically-Symmetric>\\
+&\\
 &g_{00}=-e^{2\alpha(r)},g_{11}=e^{2\beta(r)},g_{22}=r^2,g_{33}=r^2\sin^2{\theta}\\
 &g^{00}=-\frac{1}{e^{2\alpha(r)}},g^{11}=\frac{1}{e^{2\beta(r)}},g^{22}=\frac{1}{r^2},g^{33}=\frac{1}{r^2\sin^2{\theta}}\\
 &g_{\mu\nu},g^{\mu\nu}=0(\mu\neq\nu),\Gamma^{\alpha}_{\mu\nu}=\Gamma^{\alpha}_{\nu\mu}\\
@@ -240,8 +247,7 @@ $$
 \begin{flalign*}
 &\Gamma^{0}_{00}=\frac{1}{2}g^{00}(g_{00,0}+g_{00,0}-g_{00,0})=0\\
 &\Gamma^{0}_{0i}=\frac{1}{2}g^{00}(g_{0i,0}+g_{00,i}-g_{0i,0})=\frac{1}{2}g^{00}g_{00,i}=\frac{1}{2}g^{00}\partial _{r}(-e^{2\alpha(r)})=\partial_{r}\alpha\\
-&\Gamma^{0}_{ij}=\frac{1}{2}g^{00}(g_{0i,j}+g_{0j,i}-g_{ij,0})=0
-&&
+&\Gamma^{0}_{ij}=\frac{1}{2}g^{00}(g_{0i,j}+g_{0j,i}-g_{ij,0})=0&&
 \end{flalign*}
 $$
 
@@ -253,8 +259,7 @@ $$
 &\Gamma^{1}_{ij}=\frac{1}{2}g^{11}(g_{1i,j}+g_{1j,i}-g_{ij,1})=0\\
 &\Gamma^{1}_{11}=\frac{1}{2}g^{11}(g_{11,1}+g_{11,1}-g_{11,1})=\frac{1}{2}g^{11}\partial_r g_{11}=\frac{1}{2e^{2\beta}}2\partial_{r}\beta e^{2\beta}=\partial_r\beta\\
 &\Gamma^{1}_{22}=\frac{1}{2}g^{11}(g_{12,2}+g_{12,2}-g_{22,1})=\frac{1}{2}g^{11}\partial_r(-g_{22})=\frac{1}{2e^{2\beta}}\partial_r(-r^2)=-\frac{r}{e^{2\beta}}=-re^{-2\beta}\\
-&\Gamma^{1}_{33}=\frac{1}{2}g^{11}(g_{13,3}+g_{13,3}-g_{33,1})=\frac{1}{2}g^{11}\partial_r(-g_{33})=\frac{1}{2e^{2\beta}}\partial_r(-r^2\sin^{\theta})=-\frac{r\sin^2{\theta}}{e^{2\beta}}=-re^{-2\beta}\sin^2{\theta}
-&&
+&\Gamma^{1}_{33}=\frac{1}{2}g^{11}(g_{13,3}+g_{13,3}-g_{33,1})=\frac{1}{2}g^{11}\partial_r(-g_{33})=\frac{1}{2e^{2\beta}}\partial_r(-r^2\sin^{\theta})=-\frac{r\sin^2{\theta}}{e^{2\beta}}=-re^{-2\beta}\sin^2{\theta}&&
 \end{flalign*}
 $$
 
@@ -266,8 +271,7 @@ $$
 &\Gamma^{2}_{ij}=\frac{1}{2}g^{22}(g_{2i,i}+g_{2i,i}-g_{ii,2})=-\frac{1}{2}g^{22}\partial_{2}g_{33}=-\frac{1}{2r^2}\partial_{\theta}(r^{2}\sin^2{\theta})=-\sin{\theta}\cos{\theta}\\
 &\Gamma^{2}_{12}=\frac{1}{2}g^{22}(g_{21,2}+g_{22,1}-g_{12,2}=\frac{1}{2}g^{22}\partial_{r}(g_{22})=\frac{1}{2r^2}\partial_{r}(r^2)=\frac{1}{r}\\
 &\Gamma^{2}_{13}=\frac{1}{2}g^{22}(g_{21,3}+g_{23,1}-g_{13,2})=0\\
-&\Gamma^{2}_{23}=\frac{1}{2}g^{22}(g_{22,3}+g_{23,2}-g_{23,2})=0
-&&
+&\Gamma^{2}_{23}=\frac{1}{2}g^{22}(g_{22,3}+g_{23,2}-g_{23,2})=0&&
 \end{flalign*}
 $$
 
@@ -279,8 +283,7 @@ $$
 &\Gamma^{3}_{ii}=\frac{1}{2}g^{33}(g_{3i,i}+g_{3i,i}-g_{ii,3})=0\\
 &\Gamma^{3}_{ij}=\frac{1}{2}g^{33}(g_{3i,j}+g_{3j,i}-g_{ij,3})=\frac{1}{2}g^{33}(g_{3j,i}+g_{3i,j})\\
 &\Gamma^{3}_{13}=\frac{1}{2}g^{33}(g_{31,3}+g_{33,1}-g_{13,3})=\frac{1}{2}g^{33}\partial_{r}(g_{33})=\frac{1}{2r^2\sin^2{\theta}}\partial_{r}(r^2\sin^2{\theta})=\frac{1}{r}\\
-&\Gamma^{3}_{23}=\frac{1}{2}g^{33}(g_{32,3}+g_{33,2}-g_{23,3})=\frac{1}{2}g^{33}\partial_{\theta}(g_{33})=\frac{1}{2r^2\sin^2{\theta}}\partial_{\theta}(r^2\sin^2{\theta})=\frac{\cos{\theta}}{\sin{\theta}}
-&&
+&\Gamma^{3}_{23}=\frac{1}{2}g^{33}(g_{32,3}+g_{33,2}-g_{23,3})=\frac{1}{2}g^{33}\partial_{\theta}(g_{33})=\frac{1}{2r^2\sin^2{\theta}}\partial_{\theta}(r^2\sin^2{\theta})=\frac{\cos{\theta}}{\sin{\theta}}&&
 \end{flalign*}
 $$
 
@@ -291,8 +294,7 @@ $$
 &\Gamma^{1}_{00}=\Gamma^{r}_{tt}=e^{2(\alpha-\beta)}(\partial_{r}\alpha),\Gamma^{2}_{12}=\Gamma^{\theta}_{r\theta}=\frac{1}{r}\\
 &\Gamma^{1}_{11}=\Gamma^{r}_{rr}=\partial_{r}\beta,\Gamma^{3}_{13}=\Gamma^{\phi}_{r\phi}=\frac{1}{r}\\
 &\Gamma^{1}_{22}=\Gamma^{r}_{\theta\theta}=-re^{-2\beta},\Gamma^{3}_{23}=\Gamma^{\phi}_{\theta\phi}=\frac{\cos{\theta}}{\sin{\theta}}\\
-&\Gamma^{1}_{33}=\Gamma^{r}_{\phi\phi}=-re^{-2\beta}\sin^2{\theta}\\
-&&
+&\Gamma^{1}_{33}=\Gamma^{r}_{\phi\phi}=-re^{-2\beta}\sin^2{\theta}\\&&
 \end{flalign*}
 $$
 
@@ -306,8 +308,7 @@ $$
 &R_{11}=-\partial^{2}_{r}\alpha-(\partial_{r}\alpha)^{2}+(\partial_{r}^{\beta})(\partial_{r}\alpha)+\frac{2}{r}(\partial_{r}\beta)\\
 &R_{22}=e^{-2\beta}[r(\partial\beta)-r(\partial_r\alpha)-1]+1\\
 &R_{33}=\sin^2{\theta}[e^{-2\beta}(r(\partial_r\beta)-r(\partial_r\alpha)-1)+1]\\
-&=\sin^2{\theta}R_{22}\\
-&&
+&=\sin^2{\theta}R_{22}\\&&
 \end{flalign*}
 $$
 
@@ -317,8 +318,7 @@ $$
 $$
 \begin{flalign*}
 &R=R^{\mu}_{\mu}=g^{00}R_{00}+g^{11}R_{11}+g^{22}R_{22}+g^{33}R_{33}\\
-&=-2e^{-2\beta}(\partial_{r}^{2}\alpha+(\partial_r\alpha)^2-(\partial_r\alpha)(\partial_r\beta)+\frac{2}{r}(\partial_{r}\alpha)-\frac{2}{r}(\partial_{r}\beta)+\frac{1}{r^2}(1-e^{2\beta}))\\
-&&
+&=-2e^{-2\beta}(\partial_{r}^{2}\alpha+(\partial_r\alpha)^2-(\partial_r\alpha)(\partial_r\beta)+\frac{2}{r}(\partial_{r}\alpha)-\frac{2}{r}(\partial_{r}\beta)+\frac{1}{r^2}(1-e^{2\beta}))\\&&
 \end{flalign*}
 $$
 
@@ -332,8 +332,7 @@ $$
 &=e^{2\alpha}[2r(\partial_r\alpha)+1]-1\\
 &e^{2\alpha}(2r(\partial_r\alpha)+1)=1\rightarrow \partial_{r}(re^{2\alpha})=1\\
 &e^{2\alpha}=1-\frac{R_{s}}{r}\leftarrow \partial_r(re^{2\alpha}=1\leftrightarrow=re^{2\alpha}=C+r\\
-&ds^2=-(1-\frac{2M}{r})dt^2+(1-\frac{2M}{r})^{-1}dr^2+r^2d\Omega^2 \sim Schwarzschild metric
-&&
+&ds^2=-(1-\frac{2M}{r})dt^2+(1-\frac{2M}{r})^{-1}dr^2+r^2d\Omega^2 \sim Schwarzschild metric&&
 \end{flalign*}
 $$
 
