@@ -68,12 +68,12 @@ CCD 칩의 화소 하나하나는 광증배관 하나와 같은 역할을 하며
 
 <p align="center"><img src="https://i.imgur.com/CR4e8M4.png" width="400"><img src="https://i.imgur.com/UO1pla5.png" width="400">
 
-> 상 : dark60s에서 bias 보정한 이미지
-> 하 : flat R에서 bias 보정한 이미지
+> 좌 : dark60s에서 bias 보정한 이미지
+> 우 : flat R에서 bias 보정한 이미지
 
 <p align="center"><img src="https://i.imgur.com/eYL2pOl.png" width="400"><img src="https://i.imgur.com/Ns36AfW.png" width="400">
 
-> 상 : 전처리 전, 하 : 전처리 후
+> 좌 : 전처리 전, 우 : 전처리 후
 
 - 좌표동정 및 CAT파일 생성
 하단의 왼쪽 이미지와 오른쪽 이미지처럼 별들의 x_pixel값과 y_pixel값에 차이가 있다. 이러한 차이를 줄여주기 위해서 xregistar라는 Task를 사용한다. xregi에서 일정한 영역을 지정해주면 그 영역을 기준으로 이미지 상의 별들의 위치를 서로 찾아 맞춰주게 된다. x_pixel, y_pixel을 [650:1050], [650:1050] 영역을 기준으로 위치를 이동시켜 맞춰주었다.
