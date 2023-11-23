@@ -103,6 +103,7 @@ $$
 - RKF 6th order method
 
 ```math
+\allowdisplaybreaks
 y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
 K_{1} = \Delta t f(x_{n},t_{n})\\
 K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
