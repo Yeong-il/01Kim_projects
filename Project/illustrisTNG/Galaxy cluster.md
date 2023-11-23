@@ -35,7 +35,9 @@ $$
 
 $n_0,r_c,\beta,\gamma_p, A$ = fitting parameter
 
-$R^2=1-\frac{SSR}{SST} (SST=\sum^{n}_{i}(y_i-\widetilde{y})^2, SSR=\sum^{n}_{i}(y_i-\widehat{y_i})^2)$
+```math
+R^2=1-\frac{SSR}{SST} (SST=\sum^{n}_{i}(y_i-\widetilde{y})^2, SSR=\sum^{n}_{i}(y_i-\widehat{y_i})^2)
+```
 
 : 모델 적합도
 
