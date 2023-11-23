@@ -241,14 +241,16 @@ $$
 \end{flalign*}
 $$
 
+```math
 $$
 \begin{flalign*}
 &g_{\mu\nu},g^{\mu\nu}=0(\mu\neq\nu),\Gamma^{\alpha}_{\mu\nu}=\Gamma^{\alpha}_{\nu\mu}\\
-&\Gamma^{\mu}_{\nu\sigma}
-&=\frac{1}{2}g^{\mu\lambda}(g_{\lambda\nu,\sigma}+g_{\lambda\sigma,\nu}-g_{\nu\sigma,\lambda})(\Gamma^{\beta}_{\nu\sigma,\rho}=\frac{\partial}{\partial x^{\rho}}\Gamma^{\beta}_{\nu\sigma})&&
+&\Gamma^{\mu}_{\nu\sigma}=\frac{1}{2}g^{\mu\lambda}(g_{\lambda\nu,\sigma}+g_{\lambda\sigma,\nu}-g_{\nu\sigma,\lambda})(\Gamma^{\beta}_{\nu\sigma,\rho}=\frac{\partial}{\partial x^{\rho}}\Gamma^{\beta}_{\nu\sigma})&&
 \end{flalign*}
 $$
+```
 
+```math
 $$
 \begin{flalign*}
 &\Gamma^{0}_{00}=\frac{1}{2}g^{00}(g_{00,0}+g_{00,0}-g_{00,0})=0\\
@@ -256,7 +258,9 @@ $$
 &\Gamma^{0}_{ij}=\frac{1}{2}g^{00}(g_{0i,j}+g_{0j,i}-g_{ij,0})=0&&
 \end{flalign*}
 $$
+```
 
+```math
 $$
 \begin{flalign*}
 &\Gamma^{1}_{00}=\frac{1}{2}g^{11}(g_{10,0}+g_{10,0}-g_{00,1})=-\frac{1}{2}g^{11}\partial_r(-e^{2\alpha(r)})=\frac{(\partial_r\alpha) e^{2\alpha(r)}}{e^{2\beta(r)}}=e^{2(\alpha-\beta)}(\partial_r \alpha)\\
@@ -267,8 +271,9 @@ $$
 &\Gamma^{1}_{33}=\frac{1}{2}g^{11}(g_{13,3}+g_{13,3}-g_{33,1})=\frac{1}{2}g^{11}\partial_r(-g_{33})=\frac{1}{2e^{2\beta}}\partial_r(-r^2\sin^{\theta})=-\frac{r\sin^2{\theta}}{e^{2\beta}}=-re^{-2\beta}\sin^2{\theta}&&
 \end{flalign*}
 $$
+```
 
-
+```math
 $$
 \begin{flalign*}
 &\Gamma^{2}_{00}=\frac{1}{2}g^{22}(g_{20,0}+g_{20,0}-g_{00,2)}=0\\
@@ -279,8 +284,9 @@ $$
 &\Gamma^{2}_{23}=\frac{1}{2}g^{22}(g_{22,3}+g_{23,2}-g_{23,2})=0&&
 \end{flalign*}
 $$
+```
 
-
+```math
 $$
 \begin{flalign*}
 &\Gamma^{3}_{00}=\frac{1}{2}g^{33}(g_{30,0}+g_{30,0}-g_{00,3})\\
@@ -291,8 +297,9 @@ $$
 &\Gamma^{3}_{23}=\frac{1}{2}g^{33}(g_{32,3}+g_{33,2}-g_{23,3})=\frac{1}{2}g^{33}\partial_{\theta}(g_{33})=\frac{1}{2r^2\sin^2{\theta}}\partial_{\theta}(r^2\sin^2{\theta})=\frac{\cos{\theta}}{\sin{\theta}}&&
 \end{flalign*}
 $$
+```
 
-
+```math
 $$
 \begin{flalign*}
 &\Gamma^{0}_{01}=\Gamma^{t}_{tr}=\partial_{r}\alpha, \Gamma^{2}_{33}=\Gamma^{\theta}_{\phi\phi}=-\sin{\theta}\cos{\theta}\\
@@ -302,10 +309,11 @@ $$
 &\Gamma^{1}_{33}=\Gamma^{r}_{\phi\phi}=-re^{-2\beta}\sin^2{\theta}\\&&
 \end{flalign*}
 $$
-
+```
 
 - Ricci tensor
 
+```math
 $$
 \begin{flalign*}
 &R_{\mu\nu}=r^{\beta}_{\mu\nu\beta}=\Gamma^{\beta}_{\mu\beta,\nu}-\Gamma^{\beta}_{\mu\nu,\beta}+\Gamma^{\alpha}_{\mu\beta}\Gamma^{\beta}_{\alpha\mu}-\Gamma^{\alpha}_{\mu\nu}\Gamma^{\beta}_{\alpha\beta}R_{\mu\nu}=0(\mu\neq\nu)\\
@@ -316,16 +324,18 @@ $$
 &=\sin^2{\theta}R_{22}\\&&
 \end{flalign*}
 $$
-
+```
 
 - Ricci Scalar
 
+```math
 $$
 \begin{flalign*}
 &R=R^{\mu}_{\mu}=g^{00}R_{00}+g^{11}R_{11}+g^{22}R_{22}+g^{33}R_{33}\\
 &=-2e^{-2\beta}(\partial_{r}^{2}\alpha+(\partial_r\alpha)^2-(\partial_r\alpha)(\partial_r\beta)+\frac{2}{r}(\partial_{r}\alpha)-\frac{2}{r}(\partial_{r}\beta)+\frac{1}{r^2}(1-e^{2\beta}))\\&&
 \end{flalign*}
 $$
+```
 
 - Ricci tesor = 0
 
@@ -352,15 +362,19 @@ $$
 &\frac{d^2x^{\mu}}{d\lambda^2}+\Gamma^{\mu}_{\alpha\beta}\frac{dx^{\alpha}}{d\lambda}\frac{dx^\beta}{d\lambda}=0\\
 &\frac{d^2t}{d\tau^2}=\frac{-2M}{r(r-2M)}(\frac{dr}{d\tau})(\frac{dt}{d\tau})\\
 &\frac{d^2r}{d\tau^2}=(r-2M)[-\frac{M}{r^3}(\frac{dt}{d\tau})^2+\frac{M}{r(r-2M)^2}(\frac{dr}{d\tau})^2+(\frac{d\phi}{d\tau})^2]\\
-&\frac{d^2\phi}{d\tau^2}=\frac{-2}{r}(\frac{dr}{d\tau})(\frac{d\phi}{d\tau})\\\\
+&\frac{d^2\phi}{d\tau^2}=\frac{-2}{r}(\frac{dr}{d\tau})(\frac{d\phi}{d\tau})&&
+\end{flalign*}
+$$
+
+$$
+\begin{flalign*}
 &(\frac{dr}{d\tau})^2=\widetilde{E}^2-(1-\frac{2M}{r})(1+\frac{\widetilde{L}^2}{r^2})\\
 &\frac{d^2r}{d\tau^2}=-\frac{M}{r^2}+\frac{\widetilde{L}^2}{r^3}-\frac{3M\widetilde{L}^2}{r^4}\\
 &(\frac{dr}{d\phi})^2=\frac{(dr/d\tau)^2}{(d\phi/d\tau)^2}=\frac{\widetilde{E}^2-(1-\frac{2M}{r})(1+\frac{\widetilde{L}^2}{r^2})}{\widetilde{L}^2/r^4}\\
 &u=1/r,du=-(1/r^2)dr\\
 &(\frac{du}{d\phi})^2=\frac{\widetilde{E}^2-1}{\widetilde{L}^2}+\frac{2Mu}{\widetilde{L}^2}-u^2+2Mu^3\\
 &\frac{du^2}{d\phi}=\frac{M}{\widetilde{L}^2}-u+3Mu^2\\
-&\int^{\phi+\delta\phi}_{0}d\phi=\int^{u_1}_{u_{2}}\frac{\pm 1}{\sqrt{\frac{\widetilde{E}^2-1}{\widetilde{L}^2}+\frac{2Mu}{\widetilde{L}^2}-u^2+2Mu^3}}du \sim exact solution\\
-&&
+&\int^{\phi+\delta\phi}_{0}d\phi=\int^{u_1}_{u_{2}}\frac{\pm 1}{\sqrt{\frac{\widetilde{E}^2-1}{\widetilde{L}^2}+\frac{2Mu}{\widetilde{L}^2}-u^2+2Mu^3}}du \sim exact solution\\&&
 \end{flalign*}
 $$
 
