@@ -105,6 +105,8 @@ $$
 $$
 \begin{flushleft}
 y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
+\end{flushleft}
+\begin{flushleft}
 K_{1} = \Delta t f(x_{n},t_{n})\\
 K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
 K_{3} = \Delta t f(x_{n}+\frac{4}{75}K_{1}+\frac{16}{75}K_{2},t_{n}+\frac{4}{15}\Delta t)\\
