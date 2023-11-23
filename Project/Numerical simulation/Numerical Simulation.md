@@ -110,7 +110,7 @@ $$
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{1}{6}K_{1},t_{n}+\frac{1}{6}\Delta t)\\
 &K_{3} = \Delta t f(x_{n}+\frac{4}{75}K_{1}+\frac{16}{75}K_{2},t_{n}+\frac{4}{15}\Delta t)\\
-&K_{4} = \Delta t f(x_{n}+\frac{5}{6}K_{1}-\frac{8}{3}K_{2}+\frac{5}{2}K_{3},t_{n}+\frac{2}{3}\Delta t)\\
+&K_{4} = \Delta t f(x_{n}+\frac{5}{6}K_{1}-\frac{8}{3}K_{2}+\frac{5}{2}K_{3},t_{n}+\frac{2}{3}\Delta t)&&
 \end{flalign*}
 $$
 
@@ -119,7 +119,7 @@ $$
 &K_{5} = \Delta t f(x_{n}-\frac{8}{5}K_{1}+\frac{144}{25}K_{2}-4K_{3}+\frac{16}{25}K_{4},t_{n}+\frac{4}{5}\Delta t)\\
 &K_{6} = \Delta t f(x_{n}+\frac{361}{320}K_{1}-\frac{18}{5}K_{2}+\frac{407}{128}K_{3}-\frac{11}{80}K_{4}+\frac{55}{128}K_{5},t_{n}+\Delta t)\\
 &K_{7} = \Delta t f(x_{n}-\frac{11}{640}K_{1}+\frac{11}{256}K_{3}-\frac{11}{160}K_{4}+\frac{11}{256}K_{5},t_{n})\\
-&K_{8} = \Delta t f(x_{n}+\frac{93}{640}K_{1}-\frac{18}{5}K_{2}+\frac{803}{256}K_{3}-\frac{11}{160}K_{4}+\frac{99}{256}K_{5}+K_{7},t_{n}+\Delta t)&&
+&K_{8} = \Delta t f(x_{n}+\frac{93}{640}K_{1}-\frac{18}{5}K_{2}+\frac{803}{256}K_{3}-\frac{11}{160}K_{4}+\frac{99}{256}K_{5}+K_{7},t_{n}+\Delta t)\\
 &y_{n+1} = y_{n}+\frac{7}{1408}K_{1}+\frac{1125}{2816}K_{3}+\frac{9}{32}K_{4}+\frac{125}{768}K_{5}+\frac{5}{66}K_{7}+\frac{5}{66}K_{8}&&
 \end{flalign*}
 $$
@@ -134,12 +134,17 @@ $$
 &K_{2} = \Delta t f(x_{n}+\frac{2}{33}K_{1},t_{n}+\frac{2}{33}\Delta t)\\
 &K_{3} = \Delta t f(x_{n}+\frac{4}{33}K_{2},t_{n}+\frac{4}{33}\Delta t)\\
 &K_{4} = \Delta t f(x_{n}+\frac{1}{22}K_{1}+\frac{3}{22}K_{3},t_{n}+\frac{2}{11}\Delta t)\\
-&K_{5} = \Delta t f(x_{n}+\frac{43}{64}K_{1}-\frac{165}{64}K_{3}+\frac{77}{32}K_{4},t_{n}+\frac{1}{2}\Delta t)\\
+&K_{5} = \Delta t f(x_{n}+\frac{43}{64}K_{1}-\frac{165}{64}K_{3}+\frac{77}{32}K_{4},t_{n}+\frac{1}{2}\Delta t)&&
+\end{flalign*}
+$$
+
+$$
+\begin{flalign*}
 &K_{6} = \Delta t f(x_{n}-\frac{2383}{486}K_{1}+\frac{1067}{54}K_{3}-\frac{26312}{1701}K_{4}+\frac{2176}{1701}K_{5},t_{n}+\frac{2}{3}\Delta t)\\
 &K_{7} = \Delta t f(x_{n}+\frac{10077}{4802}K_{1}-\frac{5643}{686}K_{3}+\frac{116259}{16807}K_{4}-\frac{6240}{16807}K_{5}+\frac{1053}{2401}K_{6},t_{n}+\frac{6}{7}\Delta t)\\
 &K_{8} = \Delta t f(x_{n}-\frac{733}{176}K_{1}+\frac{141}{8}K_{3}-\frac{335763}{23296}K_{4}+\frac{216}{77}K_{5}-\frac{4617}{2816}K_{6}+\frac{7203}{9152}K_{7},t_{n}+\Delta t)\\
 &K_{9} = \Delta t f(x_{n}+\frac{15}{352}K_{1}-\frac{5445}{46592}K_{4}+\frac{18}{77}K_{5}-\frac{1215}{5632}K_{6}+\frac{1029}{18304}K_{7},t_{n})\\
-&K_{10} = \Delta t f(x_{n}-\frac{1833}{352}K_{1}+\frac{141}{8}K_{3}-\frac{51237}{3584}K_{4}+\frac{18}{7}K_{5}-\frac{729}{512}K_{6}+\frac{1029}{1408}K_{7}+K_{9},t_{n}+\Delta t)\\\\
+&K_{10} = \Delta t f(x_{n}-\frac{1833}{352}K_{1}+\frac{141}{8}K_{3}-\frac{51237}{3584}K_{4}+\frac{18}{7}K_{5}-\frac{729}{512}K_{6}+\frac{1029}{1408}K_{7}+K_{9},t_{n}+\Delta t)\\
 &y_{n+1} = y_{n}+\frac{11}{864}K_{1}+\frac{1771561}{6289920}K_{4}+\frac{32}{105}K_{5}+\frac{243}{2560}K_{6}+\frac{16807}{74880}K_{7}+\frac{11}{270}K_{9}+\frac{11}{270}K_{10}&&
 \end{flalign*}
 $$
