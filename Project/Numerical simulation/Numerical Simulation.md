@@ -24,7 +24,7 @@ $$
 $$
 \begin{flalign*}
 &f(x+\Delta x,t+\Delta t) = f(x,t)+\Delta x \frac{\partial f}{\partial x}+\Delta t \frac{\partial f}{\partial t}+\frac{1}{2}(\Delta x^2\frac{\partial ^2f}{\partial x^2}+2\Delta x \Delta t \frac{\partial^2f}{\partial x \partial t}+\Delta t^2 \frac{\partial^2f}{\partial t^2}+\cdots)\\
-K_{1}=\Delta t f(x_{n},t_{n})&&
+&K_{1}=\Delta t f(x_{n},t_{n})&&
 \end{flalign*}
 $$
 
