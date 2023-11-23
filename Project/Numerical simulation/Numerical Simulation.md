@@ -371,13 +371,19 @@ $$
 &(\frac{dr}{d\tau})^2=\widetilde{E}^2-(1-\frac{2M}{r})(1+\frac{\widetilde{L}^2}{r^2})\\
 &\frac{d^2r}{d\tau^2}=-\frac{M}{r^2}+\frac{\widetilde{L}^2}{r^3}-\frac{3M\widetilde{L}^2}{r^4}\\
 &(\frac{dr}{d\phi})^2=\frac{(dr/d\tau)^2}{(d\phi/d\tau)^2}=\frac{\widetilde{E}^2-(1-\frac{2M}{r})(1+\frac{\widetilde{L}^2}{r^2})}{\widetilde{L}^2/r^4}\\
-&u=1/r,du=-(1/r^2)dr\\
-&(\frac{du}{d\phi})^2=\frac{\widetilde{E}^2-1}{\widetilde{L}^2}+\frac{2Mu}{\widetilde{L}^2}-u^2+2Mu^3\\
-&\frac{du^2}{d\phi}=\frac{M}{\widetilde{L}^2}-u+3Mu^2\\
-&\int^{\phi+\delta\phi}_{0}d\phi=\int^{u_1}_{u_{2}}\frac{\pm 1}{\sqrt{\frac{\widetilde{E}^2-1}{\widetilde{L}^2}+\frac{2Mu}{\widetilde{L}^2}-u^2+2Mu^3}}du \sim exact solution\\&&
+&u=1/r,du=-(1/r^2)dr&&
 \end{flalign*}
 $$
 
+```math
+$$
+\begin{flalign*}
+&(\frac{du}{d\phi})^2=\frac{\widetilde{E}^2-1}{\widetilde{L}^2}+\frac{2Mu}{\widetilde{L}^2}-u^2+2Mu^3\\
+&\frac{du^2}{d\phi}=\frac{M}{\widetilde{L}^2}-u+3Mu^2\\
+&\int^{\phi+\delta\phi}_{0}d\phi=\int^{u_1}_{u_{2}}\frac{\pm 1}{\sqrt{\frac{\widetilde{E}^2-1}{\widetilde{L}^2}+\frac{2Mu}{\widetilde{L}^2}-u^2+2Mu^3}}du \sim Exact Solution\\&&
+\end{flalign*}
+$$
+```
 
 - Approximated analytic solution
 
@@ -405,7 +411,7 @@ $$
 &u_{h/4}(x,t) = u_{sol}(x,t)+(\frac{h}{4})E_{1}+(\frac{h}{4})^2E_{2}+(\frac{h}{4})^3E_{3}+(\frac{h}{4})^4E_{4}+\vartheta (h^5)\\\\
 &u_{h}(x,t)-u_{h/2}(x,t) = (\frac{1}{2}h)E_{1}+(\frac{3}{4}h^2)E_{2}+(\frac{7}{8}h^3)E_{3}+(\frac{15}{16}h^4)E_{4}+\vartheta (h^5)\\
 &u_{h/2}(x,t)-u_{h/4}(x,t) = (\frac{1}{4}h)E_{1}+(\frac{3}{16}h^2)E_{2}+(\frac{7}{64}h^3)E_{3}+(\frac{15}{256}h^4)E_{4}+\vartheta (h^5)\\\\
-&\frac{u_{h}(x,t)-u_{h/2}(x,t)}{u_{h/2}(x,t)-u_{h/4}(x,t)} \approx \frac{(\frac{15}{16}h^4)E_{4}+\vartheta (h^5)}{(\frac{15}{256}h^4)E_{4}+\vartheta (h^5)} \approx 2^4\\
+&\frac{u_{h}(x,t)-u_{h/2}(x,t)}{u_{h/2}(x,t)-u_{h/4}(x,t)} \approx \frac{(\frac{15}{16}h^4)E_{4}+\vartheta (h^5)}{(\frac{15}{256}h^4)E_{4}+\vartheta (h^5)} \approx 2^4&&
 \end{flalign*}
 $$
 
