@@ -119,7 +119,7 @@ $$
 &K_{5} = \Delta t f(x_{n}-\frac{8}{5}K_{1}+\frac{144}{25}K_{2}-4K_{3}+\frac{16}{25}K_{4},t_{n}+\frac{4}{5}\Delta t)\\
 &K_{6} = \Delta t f(x_{n}+\frac{361}{320}K_{1}-\frac{18}{5}K_{2}+\frac{407}{128}K_{3}-\frac{11}{80}K_{4}+\frac{55}{128}K_{5},t_{n}+\Delta t)\\
 &K_{7} = \Delta t f(x_{n}-\frac{11}{640}K_{1}+\frac{11}{256}K_{3}-\frac{11}{160}K_{4}+\frac{11}{256}K_{5},t_{n})&&
-\end{flaling*}
+\end{flalign*}
 $$
 
 $$
