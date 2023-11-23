@@ -7,6 +7,6 @@ CubeSat는 일반적으로 표준 크기와 요소를 갖는 우주 연구용 �
 
 DEM 데이터는 일반적으로 위성 기반 레이더 또는 LiDAR(빛 감지 및 거리 측정)과 같은 원격 감지 기술을 사용하여 수집된다. 이러한 기술은 지구 표면을 향해 신호를 방출하고 신호가 돌아오는 데 걸리는 시간을 측정하여 거리를 계산하고 궁극적으로 지형의 고도를 계산할 수 있다.
 
-![500](https://i.imgur.com/pm83Zko.png)
+<p align="center"><img src="https://i.imgur.com/pm83Zko.png" width="400">
 
-![500](https://i.imgur.com/kHzzN6v.jpg)
+<p align="center"><img src="https://i.imgur.com/kHzzN6v.jpg" width="400">
