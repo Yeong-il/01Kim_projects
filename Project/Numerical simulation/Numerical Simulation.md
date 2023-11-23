@@ -10,7 +10,8 @@ The Runge-Kutta method is finding solutions to ordinary differential equations (
 
 $$
 \begin{flalign*}
-&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\\\
+&y' = f(x,t) = \frac{dy}{dt} ,y_{n} = f(x_{n},t_{n})\\
+&\\
 &K_{1} = \Delta t f(x_{n},t_{n})\\
 &K_{2} = \Delta t f(x_{n}+\frac{1}{2}K_{1},t_{n}+\frac{\Delta t}{2})\\
 &K_{3} = \Delta t f(x_{n}+\frac{1}{2}K_{2},t_{n}+\frac{\Delta t}{2})\\
