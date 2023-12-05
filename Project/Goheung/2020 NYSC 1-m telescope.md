@@ -24,7 +24,7 @@ Field of View = 13.2 x 13.2  $arcmin^2$
 |:----------------------|:-----------------------------|
 | Spectral type         | K                            |
 | Magnitude V           |                        11.86 |
-| Mass                  | 0.917 ($\pm$ 0.03) $M_{sun}$ |
+| Mass                  | 0.917 ($\pm$ 0.03) $\M_{sun}$ |
 | Effective Temperature |        5224.0 ($\pm$ 69.0) K |
 | Radius                | 0.799 ($\pm$ 0.039)$R_{sun}$ |
 | Ra                    |                   13:44:23.0 |
